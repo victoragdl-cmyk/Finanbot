@@ -116,6 +116,9 @@ npm run dev
 # Prisma Studio: npm run db:studio
 ```
 
+> 💡 O comando `npm run setup` executado pelo script de setup cria `backend/.env` a partir de `backend/env.example` quando o arquivo ainda não existe.
+> Revise `backend/.env` e personalize `DATABASE_URL`, `JWT_ACCESS_SECRET`, `JWT_REFRESH_SECRET`, `OPENAI_API_KEY` e as variáveis `OPEN_FINANCE_*` antes de rodar `npm run dev`.
+
 ### Produção
 ```bash
 # Configurar .env de produção
