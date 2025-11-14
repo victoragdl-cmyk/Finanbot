@@ -73,17 +73,17 @@ export default function HomePage() {
           </nav>
           
           <div className="flex items-center space-x-4">
-            <Link 
-              href="/login" 
+            <Link
+              href="/login"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               Entrar
             </Link>
-            <Link 
-              href="/register" 
+            <Link
+              href="/register"
               className="bg-primary text-primary-foreground px-4 py-2 rounded-lg btn-clean"
             >
-              Login
+              Criar conta
             </Link>
           </div>
         </div>
@@ -110,7 +110,7 @@ export default function HomePage() {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-              <Link 
+              <Link
                 href="/register"
                 className="bg-primary text-primary-foreground px-8 py-4 rounded-xl font-semibold text-lg btn-clean flex items-center gap-2"
               >
