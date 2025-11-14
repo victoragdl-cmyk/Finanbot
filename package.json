@@ -17,7 +17,7 @@
     "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
     "start:backend": "cd backend && npm start",
     "start:frontend": "cd frontend && npm start",
-    "setup": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "setup": "npm install && cd backend && npm install && cd .. && node scripts/setup-env.js && cd frontend && npm install",
     "db:setup": "cd backend && npm run db:generate && npm run db:migrate && npm run db:seed",
     "db:migrate": "cd backend && npm run db:migrate",
     "db:seed": "cd backend && npm run db:seed",
